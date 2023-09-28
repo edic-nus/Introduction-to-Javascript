@@ -1,0 +1,84 @@
+body {
+  background: white;
+  color: #333;
+  font-family: Lato, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: block;
+  width: 60%;
+  margin: 100px auto;
+}
+
+h3 {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+  display: block
+}
+
+input {
+  margin-right: 1rem;
+  font-size: 18px;
+  line-height: 18px;
+  height: 2rem;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+
+input:focus-visible,
+input:hover {
+  outline: transparent;
+  border: 1px solid pink;
+}
+
+button {
+  background: mistyrose;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  margin-left: 1rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add item */
+.add-item-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+/* Edit item */
+.view-mode,.edit-mode {
+  display: flex;
+  align-items: center;
+}
+
+.view-mode #edit-input {
+  display: none;
+}
+
+.edit-mode h4 {
+  display: none;
+}
+
+/* Complete item */
+#completed-tasks h4{
+  text-decoration: line-through;
+}
+
